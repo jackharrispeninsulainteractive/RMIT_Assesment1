@@ -1,0 +1,101 @@
+.BodyContent {
+    background-color: #171d22;
+    color: whitesmoke;
+    padding-bottom: 10%;
+}
+
+.HeaderContentBg1{
+    background-image: url("assets/headerbg.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeaderContent {
+    background-color: rgba(0,0,0,.45);
+
+}
+
+.Profile{
+    padding: 2em;
+}
+
+.ProfileContactFlex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.ProfileContactFlex a {
+    color: white;
+}
+
+.ProfileContactFlex a:hover {
+    color: yellow;
+}
+
+.ProfileCol {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.ProfileImageContainer .ProfileImage {
+    max-width: 256px;
+    border-radius: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ProfileContactFlex ol{
+    list-style: none;
+}
+.ProfileName {
+    padding: 2em;
+}
+
+.ProfileNameBg {
+    background-color: whitesmoke;
+    padding-top: 0.25em;
+}
+
+.Section .SectionTitle {
+    padding: 1em;
+}
+
+.Section .SectionContent {
+    padding: 1em;
+}
+
+#educationlist {
+    list-style: none;
+}
+
+.Profile .ProfileCol .ProfileContact ul{
+    list-style: none;
+    padding: 1em;
+}
+
+.ImageShadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ImageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.FooterHeader {
+    background-color: white;
+    padding-top: 1em;
+}
+.Footer {
+    background-color: #00355F;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: -1em;
+    color:white;
+}
